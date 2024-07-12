@@ -1,0 +1,18 @@
+body{
+    background: url(./images\ \(5\).jpg);
+}
+ul{
+    font-size: 20px;
+}
+.menu{
+    background-color: blanchedalmond;
+    font-size: 30px;
+    text-align: right;
+}
+@media(width < 600px){
+    .menu{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

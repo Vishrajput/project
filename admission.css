@@ -1,0 +1,72 @@
+.Ad {
+    background: url(BACKGROUND.jpg);
+    padding: 100px;
+    height: 600px;
+    border-bottom: 4px solid gold;
+    background-attachment: fixed;
+    color: white;
+}
+
+button {
+    margin-left: 500px;
+    text-align: center;
+    background-color: gold;
+    width: 200px;
+}
+
+@media screen and (min-width:768px) {
+    .fe-block-yui_3_17_2_1_1683123134636_14242 .AD {
+        position: fixed;
+        top: 134px;
+        z-index: 99999;
+        top: 0;
+        width: 60%;
+    }
+}
+
+ul {
+    font-size: 20px;
+}
+
+.param {
+    padding: 240px;
+    text-align: center;
+    background: url(./param\ gurukul\ cbse\ school\ shirpur.jpg);
+    height: 1s00px;
+    background-attachment: fixed;
+    color: white;
+}
+.cal{
+ display: flex;   
+margin-left: -120px;
+}
+
+.menu {
+    background-color: blanchedalmond;
+    font-size: 30px;
+    text-align: right;
+}
+
+a {
+    margin-left: 10px;
+}
+
+@media(width< 600px) {
+    .menu {
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Ad {
+        font-size: 15px;
+    }
+}
+@media(width < 1000px){
+    .menu{
+        font-size: large;
+        display: flex;
+        text-align: left;
+    }
+}

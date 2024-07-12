@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+    <link rel="stylesheet" href="submit.css">
+</head>
+<body>
+	<form>
+		<div></div>
+		<div>
+			<label for="name">Name:</label>
+			<br />
+			<input type="text" id="name" placeholder=" Enter name" required>
+			<span class="error">Please enter your name</span>
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<br />
+			<input type="email" id="email" placeholder="Enter email " required>
+			<span class="error">Please enter a valid email address</span>
+		</div>
+		<div>
+			<label for="password">Password:</label>
+			<br />
+			<input type="password" id="password" placeholder="Enter Your password " pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" required>
+			<span class="error">Please enter a valid password</span>
+		</div>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

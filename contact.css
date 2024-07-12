@@ -1,0 +1,47 @@
+.Contact-Us {
+    background-image: url(contact.jpg);
+    width: 1340px;
+    height: 900px;
+}
+
+.menu {
+    background-color: blanchedalmond;
+    font-size: 30px;
+    text-align: right;
+}
+
+a {
+    margin-left: 10px;
+}
+
+@media(width< 600px) {
+    .menu {
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media(width < 1000px){
+    .menu{
+        font-size: large;
+        display: flex;
+        text-align: left;
+    }
+}
+form>span.error {
+    display: none;
+    font-size: 0.8em;
+    position: absolute;
+}
+
+form>input:invalid:not(:focus):not(:placeholder-shown)~.error {
+    display: block;
+    color: red;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: -300px;
+}

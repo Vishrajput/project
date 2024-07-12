@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./contact.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <img src="./P-1.png" alt="" style="max-width: 767px; margin-left: 500px;">
+    <div class="menu">
+        <a href="home.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Admission.html">Admission</a>
+        <a href="contact.html">Contact</a>
+        <a href="author.html">Created by</a>
+    </div>
+    <div class="Contact-Us">    
+        <h1 style="text-align: center;">Contact Us</h1>
+        <form action="">
+            <br>
+            <input type="text" name="name" placeholder=" Enter Name"
+                style="margin-left: 100px; width: 350px; height: 30px;" pattern="[a-z][A-Z]" required>
+                <span class="error">please enter your name</span><br><br>
+            <br>
+            <input type="text" name="Email" placeholder="Enter Email "
+                style="margin-left: 100px; width: 350px; height: 30px;" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" required>
+                <span class="error">please enter correct gmail address</span><br><br>
+           <br>
+            <input type="text" name="Message" placeholder="Message"
+                style="margin-left: 100px; height: 100px; width: 350px;"><br>
+            <br> <button type="submit" style="margin-left: 150px;">Send</button>
+            <a href="submit.html">Log in</a>
+        </form>
+        <div class="Tell">
+            <h1>Tell Us A Few Words About Your Case</h1>
+            <h2>☎️ Contact Details</h2>
+            <h3>Address</h3>
+            <p>Survey no. 66, Mumbai- Agra NH-3, Near Shirpur Toll Plaza, tal. Shirpur,<br> Dis. Dhule. Maharashtra, INDIA,
+                425 405</p>
+            <h3>📧Email</h3>
+            <p> psf.shirpur@gmail.com</p>
+            <h3>📞Number</h3>
+            <p>+91 920 926 9191</p>
+           <a href="https://www.google.com/maps/place/PARAM+GURUKUL+CBSE+SCHOOL/@21.3085379,74.8806631,17z/data=!3m1!4b1!4m6!3m5!1s0x3bdf2d9434b7ad47:0x58090bcde9dc340!8m2!3d21.3085379!4d74.883238!16s%2Fg%2F11rv60pb48?entry=ttu"> <button style="background-color: wheat; font-style: italics; border-radius: 20px;text-shadow: 10px;">Location</button></a>
+        
+        
+        </div>
+        <br><br><br><br>
+</body>
+
+</html>
